@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "dist/ngb-leads",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

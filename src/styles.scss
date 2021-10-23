@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+@import "~bootstrap/scss/bootstrap";
+
+/* Importing Datepicker SCSS file. */
+@import "~ngx-bootstrap/datepicker/bs-datepicker";
+
+main > .container {
+    padding: 60px 15px 0;
+  }
+  .container {
+    width: auto;
+    max-width: 680px;
+    padding: 0 15px;
+  }
